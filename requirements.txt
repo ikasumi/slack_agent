@@ -1,0 +1,4 @@
+slack-bolt==1.23.0
+pydantic-ai>=0.0.52
+uvicorn>=0.23.0
+python-dotenv>=1.0.0
