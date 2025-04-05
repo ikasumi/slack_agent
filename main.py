@@ -17,7 +17,7 @@ load_dotenv()
 # AIクライアントの初期化
 model = OpenAIModel(
     'deepseek/deepseek-chat-v3-0324:free',
-    # 'google/gemini-2.0-flash-exp:free',
+    # 'google/gemini-2.0-flash-exp:free', # you can change any model
     provider=OpenAIProvider(
         base_url='https://openrouter.ai/api/v1', api_key=os.getenv('OPENROUTER_API_KEY')
     ),
