@@ -1,6 +1,10 @@
 # Slack AI Bot with OpenRouter
 
-Slack上でOpenRouter経由のAIと会話できるボットアプリケーション
+Slack上で OpenRouter 経由のAIと会話できるボットアプリケーションです  
+OpenRouter の API キーを利用し、ローカル実行すれば 無料で チャットボットを作成することができます
+
+![動作イメージ](images/usecase.png)
+
 
 ## セットアップ
 
